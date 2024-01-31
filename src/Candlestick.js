@@ -3,8 +3,8 @@ class Candlestick {
     this.timestamp = timestamp;
     this.timeframe = timeframe;
     this.product = product;
-    this.price = this.open;
     this.open = open;
+    this.price = this.open;
     this.high = this.open;
     this.low = this.open;
     this.close = this.open;
